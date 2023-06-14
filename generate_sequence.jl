@@ -37,7 +37,7 @@ function main()
     
     generated_sequence = generate_seq(parsed_args["gc"], parsed_args["length"])
     if !parsed_args["benchmark"]
-        println(join(my_samps))
+        println(join(generated_sequence))
     end
 end
 
